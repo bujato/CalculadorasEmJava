@@ -8,7 +8,7 @@ public class imcCalc {
 				
         double peso, altura;
 
-	    System.out.println("-------------------------------------------------------");
+		System.out.println("-------------------------------------------------------");
         System.out.println("Qual o seu peso? ");
         peso = sc.nextDouble();
 	    System.out.println("-------------------------------------------------------");
