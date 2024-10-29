@@ -8,20 +8,20 @@ public class imcCalc {
 				
         double peso, altura;
 
-		System.out.println("===================");
+	System.out.println("===================");
         System.out.println("Qual o seu peso? ");
         peso = sc.nextDouble();
-	    System.out.println("===================");
+	System.out.println("===================");
 
         System.out.println("Qual é a sua altura?");
         altura = sc.nextDouble();
 
       	double imc = peso / Math.pow(altura, 2);
 
-   		System.out.println("===================");
+   	System.out.println("===================");
       	System.out.printf("Seu IMC é: ");
         System.out.printf("Seu peso sendo: %.2f, e sua altura sendo: %.2f. Seu IMC é: %.2f%n", peso, altura, imc);
- 	    System.out.println("===================");
+ 	System.out.println("===================");
 
       	if(imc < 17){
       		System.out.println("Você está muito abaixo do peso");
@@ -44,7 +44,8 @@ public class imcCalc {
       	else if(imc > 40) {
       		System.out.println("Você está com obesidade III (mórbida)");
       	}
-	    System.out.println("===================");
+	    
+	System.out.println("===================");
       
       	sc.close();
 	}
