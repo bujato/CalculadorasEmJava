@@ -17,7 +17,7 @@ public class imcCalc {
         altura = sc.nextDouble();
 
       	double imc = peso / Math.pow(altura, 2);
-
+	
    	System.out.println("===================");
       	System.out.printf("Seu IMC é: ");
         System.out.printf("Seu peso sendo: %.2f, e sua altura sendo: %.2f. Seu IMC é: %.2f%n", peso, altura, imc);
